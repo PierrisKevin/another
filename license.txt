@@ -1,0 +1,11 @@
+Model Information:
+* title:	Figurehead of HMS Thames, 1823 [incomplete]
+* source:	https://sketchfab.com/3d-models/figurehead-of-hms-thames-1823-incomplete-b068f617b21e4a9ebc43d9433be05c1a
+* author:	Thomas Flynn (https://sketchfab.com/nebulousflynn)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Figurehead of HMS Thames, 1823 [incomplete]" (https://sketchfab.com/3d-models/figurehead-of-hms-thames-1823-incomplete-b068f617b21e4a9ebc43d9433be05c1a) by Thomas Flynn (https://sketchfab.com/nebulousflynn) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

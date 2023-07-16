@@ -1,0 +1,25 @@
+#contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap : 25px;
+    width : 100%;
+    height: 40vh;
+    background: var(--gris);
+}
+
+#contact .overviews a{
+    text-decoration: none;
+    color : var(--text2);
+    margin: 0 20px;
+}
+#contact .social-media a{
+    font-size: 1.4em;
+    margin: 0 15px;
+    color : var(--text);
+    transition: .3s;
+}
+#contact .creator h3{
+    color: var(--text2);
+}

@@ -1,0 +1,109 @@
+.titre{
+    margin: 7% 2%;
+    width : 100%;
+}
+.titre h1{
+    position: relative;
+    text-transform: uppercase;
+    color : var(--text);
+    margin-left: 4%;
+}
+.titre h1::before{
+    content: "";
+    position: absolute;
+    bottom : -8px;
+    left : 0;
+    width : 7%;
+    height: 4px;
+    background: var(--text);
+    border-radius: 5px;
+}
+
+#project{
+    display: flex;
+    flex-wrap: wrap;
+    gap : 2%;
+    margin: 5% 0;
+    width : 100%;
+    justify-content: center;
+    align-items: center;
+}
+#project .card{
+    display: flex;
+    gap : 15px;
+    padding : 1.2%;
+    width : 45%;
+    height: 45vh;
+    background: var(--gris-gradient);
+    clip-path: polygon(100% 0, 100% 92%, 92% 100%, 0 100%, 0 0);
+}
+#project .card .image{
+    width : 45%;
+    background: var(--gris);
+    border-radius: 5px;
+}
+#project .card .desc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width : 55%;
+    flex-wrap: wrap;
+}
+#project .card .desc h1{
+    font-size: 1.6em;
+    color : var(--text)
+}
+#project .card .desc p{
+    margin: 9% 0 7% 0;
+    color : var(--text2)
+}
+#project .card .desc .link{
+    text-align: left;
+    width: 100%;
+}
+#project .card .desc .link a{
+    font-weight: bold;
+    font-size: .9em;
+    text-decoration: none;
+    padding : 10px 15px;
+    color : var(--primary)
+}
+#project .card .desc .link a i{
+    font-size: .8em;
+    transition: .3s;
+}
+#project .card .desc .link a:hover i{
+    transform: translateX(10px);
+}
+
+/* partie responsivite  */
+@media (max-width : 850px){
+    #project{
+        flex-direction: column;
+        gap : 15px;
+    }
+    #project .card{
+        width: 90%;
+        height: 30vw;
+
+    }
+}
+@media (max-width : 450px){
+    #project .card{
+        flex-direction: column;
+        padding : 15px;
+        width: 90%;
+        height: 90vw;
+        min-height: 393px;
+        background: var(--gris);
+    }
+    #project .card .image{
+        width : 100%;
+        height: 50%;
+    }
+    #project .card .desc{
+        width : 100%;
+        height: 50%;
+    }
+
+}
