@@ -23,3 +23,9 @@
 #contact .creator h3{
     color: var(--text2);
 }
+
+@media (max-width : 450px){
+    #contact .overviews a{
+        margin: 0 5px;
+    }
+}

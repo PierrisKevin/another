@@ -1,5 +1,4 @@
-import { GLTFLoader } from "GLTFLoader"
-import { OrbitControls } from "OrbitControls"
+
 
 
 class SceneRenderer{
@@ -135,7 +134,5 @@ window.addEventListener("load", ()=>{
     removeWelcom();
     verifyWidth();
 
-    const gltfObject = "./scene.gltf"
-    const canvas = document.querySelector("#three-contain")
-    const sceneRendu = new SceneRenderer(gltfObject, canvas)
+    
 })
